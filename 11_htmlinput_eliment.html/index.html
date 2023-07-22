@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML input element</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h3 id="blink">
+    Student Registration page
+  </h3>
+  <form action="">
+  <ul>
+    <li>
+     <label for="lname">
+      Enter User First Name:
+      <span class="mandate">*</span>
+     </label>
+     <input type="text" name="lname"required>
+    </li>
+
+    <li>
+      <label for="lname">
+       Enter User Last Name:
+       <span class="mandate">*</span>
+      </label>
+        <input type="text" name="lname" required>
+      </li>
+
+    <li>
+      <label for="Password">
+      <span id="blink">Password:</span>
+       <span class="mandate">*</span>
+      </label>
+        <input type="password" name="password" required>
+      </li>
+
+      <li>
+        Gender:
+        <input type="radio" name="gender" checked value="male"> Male
+        <input type="radio" name="gender"  value="female"> Female 
+      </li>
+
+      <li>
+        Language:
+        English <input type="checkbox" name="lng_eng" required>
+        Hindi   <input type="checkbox" name="lng_hin">
+        Telugu   <input type="checkbox" name="lng_tel">
+       
+      </li>
+
+      <li>
+        Country: 
+        <select name="ucountry">
+          <option value="">Select Country</option>
+          <option value="India">India</option>
+          <option value="China">China</option>
+          <option value="USA">USA</option>
+          <option value="Russia">Russia</option>
+
+        </select>
+        
+      </li>
+      <li>
+        <label for="aboutyourself" >
+           Tell me about yourself (mim 200 char)
+        </label>
+        <textarea name="aboutyourself" id="" cols="40" rows="5" placeholder="Tell me about yourself"></textarea>
+      </li>
+      <li>
+        <!-- <input type="button" value="Register Details"> -->
+        <input type="submit"> 
+      </li>
+
+       
+
+     
+
+   
+  </ul>
+</form>
+</body>
+</html>
+       
+

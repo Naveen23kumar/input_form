@@ -1,0 +1,54 @@
+h3 {
+  text-align: center;
+  margin: 20px;
+  color: blue;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+label {
+  color: black;
+  padding: 8px;
+  
+}
+
+ul {
+  border: 1px ;
+  width: 600px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.mandate {
+  color: red;
+}
+
+body {
+  background-color: rgb(247, 228, 141);
+}
+ form {
+  margin: auto;
+  width: 620px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color:#fff ;
+  box-shadow: rgba(0, 0, 0, 2);
+ }
+
+
+
+#blink{
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker{
+  80%{
+    opacity: 0;
+  }
+}
